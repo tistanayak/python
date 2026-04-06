@@ -4,10 +4,6 @@ li=list(tup)
 li[0]='PYTHON'
 li[2]='CODE'
 print(li)
-
-
-#Tuple is immutable but List is mutable(ONE WAY)
-#Tuple Value Change using (List Type)
 b=[3,4,5]
 b[0]=10
 print(b)
@@ -17,13 +13,9 @@ c[0]=12
 print(c)
 a=tuple(c)
 print(a)
-
-#2ND WAY(CONCATENATION TYPE)
 a=(3,4,5)
 a=(24,)+a[1:]
 print(a)
-
-
 
 a=[2,24,10,16,15,25,84,45,12,13]
 print(a[0:])
